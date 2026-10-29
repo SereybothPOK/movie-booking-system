@@ -35,7 +35,7 @@ bool saveBooking(const Booking& b){
 }
 
 bool findBooking(const std::string& ticketId, Booking& out){
-    if (ticketId = "") {
+    if (ticketId == "") {
         return false;
     }
     std::ifstream file("ticketStorage.csv");
@@ -46,14 +46,14 @@ bool findBooking(const std::string& ticketId, Booking& out){
     std::string line;
     while (std::getline(file, line)) {
         std::stringstream parts(line);
-        std::string id, movie, time, data, rowText, seatText;
+        std::string id, movie, time, date, rowText, seatText;
         std::getline(parts, id, ',');
         std::getline(parts, movie, ',');
         std::getline(parts, time, ',');
         std::getline(parts, date, ',');
         std::getline(parts, rowText, ',');
         std::getline(parts, seatText, ',');
-    }
+
 
     if (id == ticketId) {
         out.ticketId = id;
@@ -64,6 +64,7 @@ bool findBooking(const std::string& ticketId, Booking& out){
         out.seatNum = std::stoi(seatText);
         return true;
     }
+}
 
     return false;
     //went through the file but couldn't find the ticket id

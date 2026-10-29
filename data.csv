@@ -1,0 +1,21 @@
+Movie_ID,Movie_Genre,Movie_Name,Movie_Duration,Movie_Time_1,Movie_Time_2,Movie_Date_1,Movie_Date_2
+100001,Horror,The Conjuring,112,13:50,15:30,23-October-2026,30-November-2026
+100002,Horror,IT,135,14:50,16:30,24-October-2026,26-November-2026
+100003,Horror,The Exorcist,122,10:50,11:30,29-October-2026,30-November-2026
+100004,Horror,The Shining,144,11:50,14:30,27-October-2026,28-November-2026
+100005,Action,Avenger infinity war,149,11:50,14:30,24-October-2026,29-November-2026
+100006,Action,Avenger Endgame,181,10:50,15:30,29-October-2026,01-November-2026
+100007,Action,Terminator 2: Judgement Day,137,14:50,18:30,20-October-2026,25-November-2026
+100008,Action,John Wick 1,101,12:50,14:30,29-October-2026,02-November-2026
+100009,Fantasy,Spirit Away,125,12:50,14:30,29-October-2026,02-November-2026
+100010,Fantasy,Princess Mononoke,133,13:30,19:30,29-October-2026,02-November-2026
+100011,Fantasy,My Neighbour Totoro,86,10:30,15:30,25-October-2026,30-November-2026
+100012,Fantasy,Harry Potter 1,152,14:30,17:00,27-October-2026,29-November-2026
+100013,Romance,Titanic,194,10:30,18:00,28-October-2026,30-November-2026
+100014,Romance,The Notebook,123,10:00,13:00,25-October-2026,29-November-2026
+100015,Romance,Passenger,94,13:00,16:00,30-October-2026,03-November-2026
+100016,Romance,The Kissing Booth,105,14:00,15:50,30-October-2026,04-November-2026
+100017,Sci_Fi,Interstellar,169,13:40,19:50,26-October-2026,29-November-2026
+100018,Sci_Fi,Blade Runner 2049,163,10:20,14:10,27-October-2026,29-November-2026
+100019,Sci_Fi,Real Steel,127,12:00,15:00,29-October-2026,02-November-2026
+100020,Sci_Fi,Space Odyssey,142,14:50,17:50,30-October-2026,03-November-2026
